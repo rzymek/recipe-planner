@@ -14,3 +14,11 @@ body {
     grid-template-rows: 1fr;
 }
 
+@media print {
+    .App {
+        grid-template-columns: 1fr;
+    }
+    .noprint {
+        display: none;
+    }
+}

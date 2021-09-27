@@ -82,7 +82,7 @@ function App() {
     }));
   }
   return <div className="App">
-    <div>
+    <div className="noprint">
       <table style={{width: '100%'}}>
         <PlusMinusRow value={count} title='Osób'
                       onChange={(mod) => setCount(c => Math.max(c + mod, 0))}/>
@@ -100,7 +100,7 @@ function App() {
         <table style={{overflow: 'auto', width: '100%'}}>
           {output.map(row => <tr key={row.label}>
             <td>{row.label}</td>
-            <td>{_.round(row.amount, 2)}</td>
+            <td style={{textAlign: 'right'}}>{_.round(row.amount, 2)}</td>
             <td>{row.unit}</td>
             <td>{category(row.label)}</td>
           </tr>)}
