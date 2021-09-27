@@ -63,7 +63,7 @@ function App() {
       .groupBy(r => r.text)
       .mapValues(v => ({
         value: _.sum(v.map(i => i.amount)),
-        unit: _.chain(v).map(i => i.unit).uniq().join('/').value(),
+        unit: _.chain(v).map(i => i.unit).uniq().join('!=').value(),
       }))
       .toPairs()
       .map(([label, amount]) => ({
