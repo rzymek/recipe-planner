@@ -47,8 +47,13 @@ console.log(
 
 function App() {
   const [count, setCount] = useState(4);
-  const [basket, setBasket] = useState<{ [recipe: string]: number }>({});
+  const [basket, setBasket] = useState<{ [recipe: string]: number }>(
+    JSON.parse(window.localStorage.getItem("basket") || '{}')
+  );
   const [output, setOutput] = useState<string | Result[]>('');
+  useEffect(() => {
+    window.localStorage.setItem("basket", JSON.stringify(basket))
+  }, [basket]);
   useEffect(() => {
     const result = _.chain(recipes)
       .filter(r => basket[r.title] > 0)
