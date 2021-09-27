@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import { parse } from './parser';
 import recipesRaw from './recipies';
@@ -35,28 +35,9 @@ function PlusMinusRow(props: {
   </tr>
 }
 
-
-// function process(input: string): Result[] | string {
-//   try {
-//     const recipes: Recipe[] = parse(input);
-//     const result = _.chain(recipes)
-//       .flatMap(r => r.ingredients)
-//       .groupBy(r => r.text)
-//       .mapValues(v => ({value: _.sum(v.map(i => i.amount)), unit: v[0]?.unit}))
-//       .toPairs()
-//       .map(([label, amount]) => ({label, ...amount}))
-//       .sortBy(it => it.label)
-//       .value();
-//     return result;
-//   } catch (e) {
-//     return JSON.stringify(e, null, ' ');
-//   }
-// }
-
 const recipes: Recipe[] = parse(recipesRaw.trimStart());
 
 function App() {
-  const [value, setValue] = useState('');
   const [count, setCount] = useState(4);
   const [basket, setBasket] = useState<{ [recipe: string]: number }>({});
   const [output, setOutput] = useState<string | Result[]>('');
