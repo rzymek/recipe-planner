@@ -3,6 +3,7 @@ import './App.css';
 import { parse } from './parser';
 import recipesRaw from './recipies';
 import _ from 'lodash';
+import { category } from "./categories";
 
 interface Recipe {
   title: string;
@@ -36,6 +37,13 @@ function PlusMinusRow(props: {
 }
 
 const recipes: Recipe[] = parse(recipesRaw.trimStart());
+console.log(
+  _.chain(recipes)
+    .flatMap(r => r.ingredients)
+    .map(it => it.text)
+    .filter(it => !category(it))
+    .value()
+);
 
 function App() {
   const [count, setCount] = useState(4);
@@ -55,7 +63,7 @@ function App() {
       .groupBy(r => r.text)
       .mapValues(v => ({
         value: _.sum(v.map(i => i.amount)),
-        unit: _.chain(v).map(i=>i.unit).uniq().join('/').value(),
+        unit: _.chain(v).map(i => i.unit).uniq().join('/').value(),
       }))
       .toPairs()
       .map(([label, amount]) => ({
@@ -63,7 +71,7 @@ function App() {
         amount: amount.value * count,
         unit: amount.unit
       }))
-      .sortBy(it => it.label)
+      .sortBy(it => [category(it.label), it.label])
       .value();
     setOutput(result);
   }, [basket, count])
@@ -79,7 +87,10 @@ function App() {
         <PlusMinusRow value={count} title='Osób'
                       onChange={(mod) => setCount(c => Math.max(c + mod, 0))}/>
         {recipes.map(it => it.title).sort().map(it =>
-          <PlusMinusRow value={basket[it] || 0} title={it} onChange={(mod) => add(it, mod)}/>
+          <PlusMinusRow key={it}
+                        value={basket[it] || 0}
+                        title={it}
+                        onChange={(mod) => add(it, mod)}/>
         )}
       </table>
     </div>
@@ -91,6 +102,7 @@ function App() {
             <td>{row.label}</td>
             <td>{_.round(row.amount, 2)}</td>
             <td>{row.unit}</td>
+            <td>{category(row.label)}</td>
           </tr>)}
         </table>
       </div>
