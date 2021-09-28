@@ -16,6 +16,11 @@ interface Recipe {
 }
 
 interface Result {
+  groceries: GroceryItem[];
+  equipment: string[];
+}
+
+interface GroceryItem {
   label: string;
   amount: number;
   unit: string;
@@ -26,9 +31,9 @@ function PlusMinusRow(props: {
   title: string;
   onChange(mod: number): void;
 }) {
-  return <tr>
+  return <tr className={props.value > 0 ? 'active' : undefined}>
     <td>{props.title}</td>
-    <td>{props.value}</td>
+    <td align="right">{props.value}</td>
     <td>
       <button onClick={() => props.onChange(-1)}>-</button>
       <button onClick={() => props.onChange(+1)}>+</button>
@@ -52,13 +57,14 @@ function App() {
   const [basket, setBasket] = useState<{ [recipe: string]: number }>(
     JSON.parse(window.localStorage.getItem("basket") || '{}')
   );
-  const [output, setOutput] = useState<string | Result[]>('');
+  const [output, setOutput] = useState<string | Result>('');
   useEffect(() => {
     window.localStorage.setItem("basket", JSON.stringify(basket))
   }, [basket]);
   useEffect(() => {
-    const result = _.chain(recipes)
-      .filter(r => basket[r.title] > 0)
+    const filtered = _.chain(recipes)
+      .filter(r => basket[r.title] > 0);
+    const groceries = filtered
       .map(r => ({
         ...r,
         ingredients: r.ingredients.map(i => ({
@@ -80,7 +86,11 @@ function App() {
       }))
       .sortBy(it => [category(it.label), it.label])
       .value();
-    setOutput(result);
+    const equipment = filtered.flatMap(it => it.equipment).sort().sortedUniq().value();
+    setOutput({
+      groceries,
+      equipment,
+    });
   }, [basket, count])
   const add = (recipe: string, mod: number) => {
     setBasket(b => ({
@@ -90,6 +100,10 @@ function App() {
   }
   return <div className="App">
     <div className="noprint">
+      <button onClick={() => {
+        setBasket({})
+      }}>Reset
+      </button>
       <table style={{width: '100%'}}>
         <tbody>
         <PlusMinusRow value={count} title='Osób'
@@ -105,10 +119,10 @@ function App() {
     </div>
     {typeof output === "string"
       ? <pre>{output}</pre>
-      : <div>
-        <table style={{overflow: 'auto', width: '100%'}}>
+      : <div style={{overflow: 'auto'}}>
+        <table style={{width: '100%'}}>
           <tbody>
-          {output.map(row => <tr key={row.label}>
+          {output.groceries.map(row => <tr key={row.label}>
             <td>{row.label}</td>
             <td style={{textAlign: 'right'}}>{_.round(row.amount, 2)}</td>
             <td>{row.unit}</td>
@@ -116,6 +130,11 @@ function App() {
           </tr>)}
           </tbody>
         </table>
+        <ul>
+          {output.equipment.map(row =>
+            <li key={row}>{row}</li>
+          )}
+        </ul>
       </div>
     }
   </div>

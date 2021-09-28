@@ -1,4 +1,4 @@
-# Makaron z kurczakiem w śmietanowym sosie pieczarkowym
+# makaron z kurczakiem w śmietanowym sosie pieczarkowym
 * smietana UHT 18%: 60 g
 * pierś kurczaka: 150 g
 * makaron tagliatelle: 125 g
@@ -6,8 +6,9 @@
 * pieczarki: 80 g
 * natka pietruszki: 0.2 szt
 * sól: 10 g
++ kociołek,łyżka,druciak
 
-# Hamburgery
+# hamburgery
 * bułka kajzerka: 2 szt
 * mięso mielone wołowe: 200 g
 * ser żółty (krojony): 30 g
@@ -15,8 +16,7 @@
 * ogórki konserwowe: 30 g
 * jalapenos: 30 g
 * pomidory: 0.5 szt
-+ płyta żeliwna
-+ szpachla
++ płyta żeliwna, szpachla
 
 # curry wurst
 * podłużne bułki do currywurst: 2 szt
@@ -36,15 +36,15 @@
 * kapusty (główka): 200 g
 * cebula: 150 g
 * sól: 20 g
-+ kociołek
++ kociołek,łyżka,druciak
 + obieraczka do warzyw
-+ łyżka
 
 # quesadilla
 * tortilla: 2 szt
 * ser żółty (krojony): 60 g
 * jalapenos: 50 g
 * sucha krakowka: 60 g
++ płyta żeliwna, szpachla
 
 # gulasz z kaszą
 * chleb biały krojony: 3 kromki
@@ -59,9 +59,8 @@
 * marchew: 0.15 kg
 * cebula: 0.10 g
 * czerwona papryka: 0.05 g
-+ kociołek
++ kociołek,łyżka,druciak
 + obieraczka do warzyw
-+ łyżka
 
 # grochówka
 * chleb biały krojony: 3 kromki
@@ -72,9 +71,8 @@
 * marchew: 0.04 kg
 * ziemniaki: 0.12 kg
 * cebula: 0.05 g
-+ kociołek
++ kociołek,łyżka,druciak
 + obieraczka do warzyw
-+ łyżka
 
 # płatki z mlekiem
 * chocopuffs/cini minis: 80 g
@@ -95,8 +93,7 @@
 * cebula: 0.10 g
 * pomidory krojone puszka / przecier pomidorowy: 150 g
 * makaron spagetti: 100 g
-+ kociołek
-+ łyżka
++ kociołek,łyżka,druciak
 
 # tosty
 * chleb biały krojony: 6 kromki
@@ -105,8 +102,7 @@
 * jalapenos: 40 g
 * ketchup ostry: 60 g
 * ogórki konserwowe: 30 g
-+ płyta żeliwna
-+ szpachla
++ płyta żeliwna, szpachla
 
 # kwaśnica
 * żeberka surowe:	175	g
@@ -116,9 +112,8 @@
 * kapusta kiszona:	100	g
 * ziemniaki:	0.2	kg
 * czosnek granulowany/płatki: 0.2 opakowanie
-+ kociołek
++ kociołek,łyżka,druciak
 + obieraczka do warzyw
-+ łyżka
 
 # bigos
 * kiełbasa ~15cm: 1 szt
@@ -128,21 +123,19 @@
 * kapusta kiszona:	250	g
 * cebula: 150 g
 * suszone śliwki: 0 g
++ kociołek,łyżka,druciak
 
 # polędwiczki z grilla
 * chleb biały krojony: 4 kromki
 * polędwiczki wieprzowe:	350	g
 * żurawina:	80	g
-+ płyta żeliwna
-+ szpachla
++ płyta żeliwna, szpachla
 
 # jajko sadzone
 * chleb biały krojony: 1 kromki
 * jajka: 1 sztuki
 * sól: 10 g
-+ płyta żeliwna
-+ szpachla
-
++ płyta żeliwna, szpachla
 
 # pankejki
 * jajka: 1 sztuki
@@ -151,8 +144,7 @@
 * mleko: 0.1 L
 * cukier: 10 g
 * olej rzepakowy: 35 ml
-+ płyta żeliwna
-+ szpachla
++ płyta żeliwna, szpachla
 
 # żurek
 * zakwasu żytniego do żurku: 125ml
@@ -162,6 +154,7 @@
 * kiełbasa ~15cm: 2 szt
 * wędzony boczek: 50 g
 * smietana UHT 18%: 25 g
++ kociołek,łyżka,druciak
 
 # chilli con carne
 * tortilla: 2 szt
@@ -178,6 +171,7 @@
 * czerwona papryka:	0,5	sztuk
 * cebula: 	1	sztuk
 * czekolada gożka: 0.1 tabliczki
++ kociołek,łyżka,druciak
 
 # przekąski
 * kabanosy chili: 0.5 opakowania
