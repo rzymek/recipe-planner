@@ -24,7 +24,7 @@
   "scripts": {
     "prestart": "npm-watch _parser&",
     "prebuild": "yarn run _parser",
-    "_parser": "peggy -o src/parser.ts --plugin ts-pegjs src/parser.pegjs",
+    "_parser": "echo 'export default `' > src/recipies.ts; cat README.md >> src/recipies.ts; echo '`' >> src/recipies.ts; peggy -o src/parser.ts --plugin ts-pegjs src/parser.pegjs",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -32,7 +32,10 @@
   },
   "watch": {
     "_parser": {
-      "patterns": "src/parser.pegjs"
+      "patterns": [
+        "src/parser.pegjs",
+        "README.md"
+      ]
     }
   },
   "eslintConfig": {

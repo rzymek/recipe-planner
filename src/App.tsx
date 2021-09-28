@@ -42,6 +42,8 @@ console.log(
     .flatMap(r => r.ingredients)
     .map(it => it.text)
     .filter(it => !category(it))
+    .sort()
+    .sortedUniq()
     .value()
 );
 
@@ -89,6 +91,7 @@ function App() {
   return <div className="App">
     <div className="noprint">
       <table style={{width: '100%'}}>
+        <tbody>
         <PlusMinusRow value={count} title='Osób'
                       onChange={(mod) => setCount(c => Math.max(c + mod, 0))}/>
         {recipes.map(it => it.title).sort().map(it =>
@@ -97,18 +100,21 @@ function App() {
                         title={it}
                         onChange={(mod) => add(it, mod)}/>
         )}
+        </tbody>
       </table>
     </div>
     {typeof output === "string"
       ? <pre>{output}</pre>
       : <div>
         <table style={{overflow: 'auto', width: '100%'}}>
+          <tbody>
           {output.map(row => <tr key={row.label}>
             <td>{row.label}</td>
             <td style={{textAlign: 'right'}}>{_.round(row.amount, 2)}</td>
             <td>{row.unit}</td>
             <td>{category(row.label)}</td>
           </tr>)}
+          </tbody>
         </table>
       </div>
     }

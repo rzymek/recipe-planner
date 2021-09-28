@@ -5,7 +5,7 @@ Recipe = title:Title ingredients:Ingredient+ equipment:Equipment* "\n"+ {return 
 Title = "#" _ title:([^\n]+) "\n" { return title.join('') }
 
 Ingredient =
-    "*" _ text:([^:]+) ":" _ amount:Number unit:([^\n]+) _ "\n" { return ({text:text.join(''),amount,unit: unit.join('').trim()}) }
+    "*" _ text:([^:\n]+) ":" _ amount:Number unit:([^\n]+) _ "\n" { return ({text:text.join(''),amount,unit: unit.join('').trim()}) }
 Equipment =
     "+" _ text:([^\n]+) _ "\n" {return text.join('')}
 

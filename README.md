@@ -1,46 +1,199 @@
-# Getting Started with Create React App
+# Makaron z kurczakiem w śmietanowym sosie pieczarkowym
+* smietana UHT 18%: 60 g
+* pierś kurczaka: 150 g
+* makaron tagliatelle: 125 g
+* cebula: 40 g
+* pieczarki: 80 g
+* natka pietruszki: 0.2 szt
+* sól: 10 g
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hamburgery
+* bułka kajzerka: 2 szt
+* mięso mielone wołowe: 200 g
+* ser żółty (krojony): 30 g
+* ketchup ostry: 30 g
+* ogórki konserwowe: 30 g
+* jalapenos: 30 g
+* pomidory: 0.5 szt
++ płyta żeliwna
++ szpachla
 
-## Available Scripts
+# curry wurst
+* podłużne bułki do currywurst: 2 szt
+* kiełbasa ~15cm: 2 szt
+* cebulka prażona: 40 g
+* curry/kurkuma: 5 g
+* ketchup ostry: 50 g
+* jalapenos: 30 g
 
-In the project directory, you can run:
+# prażonka
+* kiełbasa ~15cm: 0.5 szt
+* czosnek granulowany: 5 g
+* zioła prowansalskie: 0.2 opakowanie
+* olej rzepakowy: 50 ml
+* marchew: 0.15 kg
+* ziemniaki myte: 300 g
+* kapusty (główka): 200 g
+* cebula: 150 g
+* sól: 20 g
++ kociołek
++ obieraczka do warzyw
++ łyżka
 
-### `yarn start`
+# quesadilla
+* tortilla: 2 szt
+* ser żółty (krojony): 60 g
+* jalapenos: 50 g
+* sucha krakowka: 60 g
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# gulasz z kaszą
+* chleb biały krojony: 3 kromki
+* mięso na gulasz: 300 g
+* czosnek granulowany/płatki: 0.2 opakowanie
+* zioła prowansalskie: 0.2 opakowanie
+* ziarna jałowca: 0.2 opakowanie
+* sól: 10 g
+* pomidory krojone puszka / przecier pomidorowy: 100 g
+* olej rzepakowy: 50 ml
+* kasza gryczana: 100	g
+* marchew: 0.15 kg
+* cebula: 0.10 g
+* czerwona papryka: 0.05 g
++ kociołek
++ obieraczka do warzyw
++ łyżka
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# grochówka
+* chleb biały krojony: 3 kromki
+* żeberka wędzone: 150 g
+* majeranek: 0.2 opakowanie
+* sól: 10 g
+* suchego grochu łuskanego (połówki): 60 g
+* marchew: 0.04 kg
+* ziemniaki: 0.12 kg
+* cebula: 0.05 g
++ kociołek
++ obieraczka do warzyw
++ łyżka
 
-### `yarn test`
+# płatki z mlekiem
+* chocopuffs/cini minis: 80 g
+* mleko: 0.3 L
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# grog
+* goździki: 0.01 g
+* rum do grogu: 0.125 L
+* cukier: 60 g
++ wyciskarka do cytryn
++ termos
 
-### `yarn build`
+# spaghetti
+* mięso mielone wołowe: 100 g
+* czosnek granulowany/płatki: 0.2 opakowanie
+* zioła prowansalskie: 0.2 opakowanie
+* sól: 10 g
+* cebula: 0.10 g
+* pomidory krojone puszka / przecier pomidorowy: 150 g
+* makaron spagetti: 100 g
++ kociołek
++ łyżka
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# tosty
+* chleb biały krojony: 6 kromki
+* ser żółty (krojony): 75 g
+* sucha krakowka: 75 g
+* jalapenos: 40 g
+* ketchup ostry: 60 g
+* ogórki konserwowe: 30 g
++ płyta żeliwna
++ szpachla
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# kwaśnica
+* żeberka surowe:	175	g
+* wędzony boczek:	75	g
+* żeberka wędzone:	150	g
+* majeranek: 0.2 opakowanie
+* kapusta kiszona:	100	g
+* ziemniaki:	0.2	kg
+* czosnek granulowany/płatki: 0.2 opakowanie
++ kociołek
++ obieraczka do warzyw
++ łyżka
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# bigos
+* kiełbasa ~15cm: 1 szt
+* karkówka:	125	g
+* majeranek: 0.2 opakowanie
+* ziarna jałowca: 0.2 opakowanie
+* kapusta kiszona:	250	g
+* cebula: 150 g
+* suszone śliwki: 0 g
 
-### `yarn eject`
+# polędwiczki z grilla
+* chleb biały krojony: 4 kromki
+* polędwiczki wieprzowe:	350	g
+* żurawina:	80	g
++ płyta żeliwna
++ szpachla
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# jajko sadzone
+* chleb biały krojony: 1 kromki
+* jajka: 1 sztuki
+* sól: 10 g
++ płyta żeliwna
++ szpachla
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# pankejki
+* jajka: 1 sztuki
+* proszek do pieczenia:	4 g
+* mąka:	100	g
+* mleko: 0.1 L
+* cukier: 10 g
+* olej rzepakowy: 35 ml
++ płyta żeliwna
++ szpachla
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# żurek
+* zakwasu żytniego do żurku: 125ml
+* majeranek: 0.2 opakowanie
+* sól: 10 g
+* pieprz: 10 g
+* kiełbasa ~15cm: 2 szt
+* wędzony boczek: 50 g
+* smietana UHT 18%: 25 g
 
-## Learn More
+# chilli con carne
+* tortilla: 2 szt
+* mięso mielone wołowe:	125	g
+* czosnek granulowany/płatki:	0.2	opakowanie
+* chilli: 0.1	opakowanie
+* oregano: 0.2 opakowanie
+* sól: 10 g
+* kukurydza puszka: 50g
+* czerwona fasola puszka: 50g
+* pomidory krojone puszka / przecier pomidorowy:	100	g
+* olej rzepakowy: 35 ml
+* jalapenos:	50	g
+* czerwona papryka:	0,5	sztuk
+* cebula: 	1	sztuk
+* czekolada gożka: 0.1 tabliczki
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# przekąski
+* kabanosy chili: 0.5 opakowania
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# kawa
+* kawa: 12 g
+
+# akcesoria
+* papier toaletowy: 1 rolka
+* reni: 2 tabletki
+* mokre chustki: 10 listków
+* płyn do mycia naczyń: 10 ml
+* worki na śmieci: 1 szt
+* helsi / Porost Islandzki / isla: 2 tabletki
+* apap/ibuprom: 2 tabletki
++ druciak
++ gąbka do zmywania
++ szmaty
+
