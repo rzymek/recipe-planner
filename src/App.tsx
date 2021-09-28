@@ -104,7 +104,7 @@ function App() {
         setBasket({})
       }}>Reset
       </button>
-      <table style={{width: '100%'}}>
+      <table>
         <tbody>
         <PlusMinusRow value={count} title='Osób'
                       onChange={(mod) => setCount(c => Math.max(c + mod, 0))}/>
@@ -120,7 +120,7 @@ function App() {
     {typeof output === "string"
       ? <pre>{output}</pre>
       : <div style={{overflow: 'auto'}}>
-        <table style={{width: '100%'}}>
+        <table>
           <tbody>
           {output.groceries.map(row => <tr key={row.label}>
             <td>{row.label}</td>

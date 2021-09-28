@@ -14,6 +14,9 @@ body {
     grid-template-rows: 1fr;
 }
 
+table {
+    width: 100%;
+}
 tr.active {
     background-color: #ddffdd;
 }
@@ -25,6 +28,9 @@ button {
 @media print {
     .App {
         grid-template-columns: 1fr;
+    }
+    table {
+        width: auto;
     }
     .noprint {
         display: none;
