@@ -49,7 +49,7 @@
 # gulasz z kaszą
 * chleb biały krojony: 3 kromki
 * mięso na gulasz: 300 g
-* czosnek: 4 g
+* czosnek granulowany: 4 g
 * zioła prowansalskie: 0.2 opakowanie
 * ziarna jałowca: 0.2 opakowanie
 * sól: 10 g
@@ -75,8 +75,8 @@
 + obieraczka do warzyw
 
 # płatki z mlekiem
-* chocopuffs": 80 g
-* "cini minis": 40 g
+* chocopuffs: 80 g
+* cini minis: 40 g
 * mleko: 0.3 L
 
 # grog

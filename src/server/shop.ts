@@ -1,4 +1,4 @@
-export type ShopEntry = [string, string, number?, string?];
+export type ShopEntry = [string, string, (number | null)?, (string | null)?];
 export type Shop = ShopEntry[];
 
 export interface ShopItems {
