@@ -1,7 +1,7 @@
 import Koa from 'koa';
 import Router from 'koa-router';
 import bodyParser from "koa-bodyparser";
-import {shop as megasam24} from "./megasam24.js";
+import { shop as megasam24 } from "./megasam24.js";
 import { GroceryItem } from "../recipe/types";
 import { GroceryShopItem, order } from "./order.js";
 import { Shop, shopItems } from "./shop.js";
@@ -17,7 +17,7 @@ function shopRequest(item: GroceryItem): GroceryItem & Partial<GroceryShopItem> 
     ...item,
     link: link.link,
     shopAmount: link.amount,
-    count: Math.ceil(item.amount / link.amount),
+    count: Math.ceil((item.amount - 0.1) / link.amount),
   }
 }
 
@@ -26,7 +26,7 @@ router.post("/order", bodyParser(), async ctx => {
   const req: GroceryItem[] = ctx.request.body;
 
   const list = req.map(shopRequest);
-  order(list.filter(it => it.link) as GroceryShopItem[]).then(()=>{
+  order(list.filter(it => it.link) as GroceryShopItem[]).then(() => {
     console.log('Finished ordering')
   });
   const missing = list.filter(it => !it.link);
