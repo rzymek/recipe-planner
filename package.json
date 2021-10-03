@@ -2,23 +2,32 @@
   "name": "recipe-planner",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "homepage": "https://rzymek.github.io/recipe-planner",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "@types/jest": "^26.0.15",
+    "@types/koa": "^2.13.4",
+    "@types/koa-bodyparser": "^4.3.3",
+    "@types/koa-router": "^7.4.4",
     "@types/lodash": "^4.14.174",
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "@types/selenium-webdriver": "^4.0.15",
     "gh-pages": "^3.2.3",
+    "koa": "^2.13.3",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1",
     "lodash": "^4.17.21",
     "npm-watch": "^0.11.0",
     "peggy": "^1.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "selenium-webdriver": "^4.0.0-rc-2",
     "ts-pegjs": "^1.2.1",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
@@ -32,7 +41,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "update": "node --loader ts-node/esm --no-warnings src/cli/main.ts",
+    "server": "node --loader ts-node/esm --no-warnings src/server/main.ts"
   },
   "watch": {
     "_parser": {
@@ -59,5 +70,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "proxy": "http://localhost:8000",
+  "devDependencies": {
+    "ts-node": "^10.2.1"
   }
 }

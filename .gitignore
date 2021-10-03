@@ -1,6 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 /src/parser.ts
+/.idea/
+selenium-server-standalone.jar
 
 # dependencies
 /node_modules

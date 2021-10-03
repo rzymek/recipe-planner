@@ -32,7 +32,7 @@
 * zioła prowansalskie: 0.2 opakowanie
 * olej rzepakowy: 50 ml
 * marchew: 0.15 kg
-* ziemniaki myte: 300 g
+* ziemniaki: 0.3 kg
 * kapusty (główka): 200 g
 * cebula: 150 g
 * sól: 20 g
@@ -49,7 +49,7 @@
 # gulasz z kaszą
 * chleb biały krojony: 3 kromki
 * mięso na gulasz: 300 g
-* czosnek granulowany/płatki: 0.2 opakowanie
+* czosnek: 4 g
 * zioła prowansalskie: 0.2 opakowanie
 * ziarna jałowca: 0.2 opakowanie
 * sól: 10 g
@@ -75,7 +75,8 @@
 + obieraczka do warzyw
 
 # płatki z mlekiem
-* chocopuffs/cini minis: 80 g
+* chocopuffs": 80 g
+* "cini minis": 40 g
 * mleko: 0.3 L
 
 # grog
@@ -87,7 +88,7 @@
 
 # spaghetti
 * mięso mielone wołowe: 100 g
-* czosnek granulowany/płatki: 0.2 opakowanie
+* czosnek granulowany: 4 g
 * zioła prowansalskie: 0.2 opakowanie
 * sól: 10 g
 * cebula: 0.10 g
@@ -111,7 +112,7 @@
 * majeranek: 0.2 opakowanie
 * kapusta kiszona:	100	g
 * ziemniaki:	0.2	kg
-* czosnek granulowany/płatki: 0.2 opakowanie
+* czosnek granulowany: 4 g
 + kociołek,łyżka,druciak
 + obieraczka do warzyw
 
@@ -120,15 +121,17 @@
 * karkówka:	125	g
 * majeranek: 0.2 opakowanie
 * ziarna jałowca: 0.2 opakowanie
-* kapusta kiszona:	250	g
-* cebula: 150 g
+* kapusta kiszona:	150	g
+* kapusty (główka): 100 g
+* pomidory krojone puszka / przecier pomidorowy: 50	g
+* cebula:   50 g
 * suszone śliwki: 0 g
 + kociołek,łyżka,druciak
 
 # polędwiczki z grilla
 * chleb biały krojony: 4 kromki
-* polędwiczki wieprzowe:	350	g
-* żurawina:	80	g
+* polędwiczki wieprzowe: 350	g
+* żurawina:	80 g
 + płyta żeliwna, szpachla
 
 # jajko sadzone
@@ -159,7 +162,7 @@
 # chilli con carne
 * tortilla: 2 szt
 * mięso mielone wołowe:	125	g
-* czosnek granulowany/płatki:	0.2	opakowanie
+* czosnek granulowany: 4 g
 * chilli: 0.1	opakowanie
 * oregano: 0.2 opakowanie
 * sól: 10 g

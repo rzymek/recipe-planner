@@ -4,27 +4,8 @@ import { parse } from './parser';
 import recipesRaw from './recipies';
 import _ from 'lodash';
 import { category } from "./categories";
-
-interface Recipe {
-  title: string;
-  ingredients: {
-    text: string;
-    amount: number;
-    unit: string;
-  }[]
-  equipment: string[]
-}
-
-interface Result {
-  groceries: GroceryItem[];
-  equipment: string[];
-}
-
-interface GroceryItem {
-  label: string;
-  amount: number;
-  unit: string;
-}
+import { Recipe, Result } from "./recipe/types";
+import { order } from "./order";
 
 function PlusMinusRow(props: {
   value: number;
@@ -42,15 +23,6 @@ function PlusMinusRow(props: {
 }
 
 const recipes: Recipe[] = parse(recipesRaw.trimStart());
-console.log(
-  _.chain(recipes)
-    .flatMap(r => r.ingredients)
-    .map(it => it.text)
-    .filter(it => !category(it))
-    .sort()
-    .sortedUniq()
-    .value()
-);
 
 function App() {
   const [count, setCount] = useState(4);
@@ -120,6 +92,7 @@ function App() {
     {typeof output === "string"
       ? <pre>{output}</pre>
       : <div style={{overflow: 'auto'}}>
+        <button onClick={() => order(output.groceries)}>Zamów</button>
         <table>
           <tbody>
           {output.groceries.map(row => <tr key={row.label}>
