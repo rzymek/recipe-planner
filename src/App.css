@@ -40,3 +40,7 @@ button {
 table td {
     border-bottom: solid 1px lightgray;
 }
+
+tr:hover{
+    background-color: lightblue;
+}
