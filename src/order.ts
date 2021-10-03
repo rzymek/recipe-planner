@@ -1,6 +1,6 @@
 import { GroceryItem } from "./recipe/types";
 
-export async function order(items: GroceryItem[]) {
+export async function order(items: GroceryItem[]):Promise<GroceryItem[]> {
   const response = await fetch("/order", {
     method: 'POST',
     headers: {
@@ -8,4 +8,6 @@ export async function order(items: GroceryItem[]) {
     },
     body: JSON.stringify(items)
   })
+  const missing = await response.json() as GroceryItem[];
+  return missing;
 }

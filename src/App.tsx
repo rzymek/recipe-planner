@@ -4,8 +4,10 @@ import { parse } from './parser';
 import recipesRaw from './recipies';
 import _ from 'lodash';
 import { category } from "./categories";
-import { Recipe, Result } from "./recipe/types";
+import { GroceryItem, Recipe, Result } from "./recipe/types";
 import { order } from "./order";
+import { GroceryTable } from "./GroceryTable";
+import { EquipmentList } from "./EquipmentList";
 
 function PlusMinusRow(props: {
   value: number;
@@ -26,6 +28,7 @@ const recipes: Recipe[] = parse(recipesRaw.trimStart());
 
 function App() {
   const [count, setCount] = useState(4);
+  const [missing, setMissing] = useState<GroceryItem[]>();
   const [basket, setBasket] = useState<{ [recipe: string]: number }>(
     JSON.parse(window.localStorage.getItem("basket") || '{}')
   );
@@ -92,25 +95,17 @@ function App() {
     {typeof output === "string"
       ? <pre>{output}</pre>
       : <div style={{overflow: 'auto'}}>
-        <button onClick={() => order(output.groceries)}>Zamów</button>
-        <table>
-          <tbody>
-          {output.groceries.map(row => <tr key={row.label}>
-            <td>{row.label}</td>
-            <td style={{textAlign: 'right'}}>{_.round(row.amount, 2)}</td>
-            <td>{row.unit}</td>
-            <td>{category(row.label)}</td>
-          </tr>)}
-          </tbody>
-        </table>
-        <ul>
-          {output.equipment.map(row =>
-            <li key={row}>{row}</li>
-          )}
-        </ul>
+        <button onClick={() => order(output.groceries).then(setMissing)}>Zamów</button>
+        <GroceryTable values={output.groceries}/>
+        <EquipmentList values={output.equipment}/>
+        {missing && <>
+            <h3>Brakuje:</h3>
+            <GroceryTable values={missing}/>
+        </>}
       </div>
     }
   </div>
 }
+
 
 export default App;
