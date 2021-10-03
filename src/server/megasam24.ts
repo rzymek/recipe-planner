@@ -1,6 +1,6 @@
 import { Shop } from "./shop";
 
-export const megasam24: Shop = [
+export const shop:Shop = [
   ["apap/ibuprom", "tabletki",],
   ["bułka kajzerka", "szt", 1, "https://megasam24.pl/pl/p/Kajzerka-55g/1784"],
   ["cebula", "g", 1000, "https://megasam24.pl/pl/p/Cebula-1kg-siatka/1953"],

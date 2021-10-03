@@ -2,14 +2,16 @@ import _ from "lodash";
 import { parse } from "../parser.js";
 import recipesRaw from "../recipies.js";
 import { Recipe } from "../recipe/types.js";
-import { megasam24 } from "../server/megasam24.js";
-import { Shop, ShopEntry, shopItems } from "../server/shop.js";
+import { shop as megasam24 } from "../server/megasam24.js";
+import { Shop, ShopEntry, ShopItems, shopItems } from "../server/shop.js";
+import fs from "fs";
 
 const recipes: Recipe[] = parse(recipesRaw.trimStart());
 
-const items = shopItems(megasam24);
 
-function updateShopWithRecepies(): Shop {
+function updateShopWithRecipes(shop: Shop): Shop {
+  const items = shopItems(shop);
+
   function toShopItem(item: { text: string, unit: string }): ShopEntry {
     return [item.text, item.unit, items[item.text]?.amount, items[item.text]?.link]
   }
@@ -23,10 +25,14 @@ function updateShopWithRecepies(): Shop {
     .value()
 }
 
-console.log(
-`import { Shop } from "./shop";
+async function update(shop: Shop, name: string) {
+  const src = `
+import { Shop } from "./shop";
 
-export const megasam24: Shop = [
-${updateShopWithRecepies().map(it=>`  ${JSON.stringify(it)},`).join('\n')}
-];`
-);
+export const shop:Shop = [
+${updateShopWithRecipes(megasam24).map(it => `  ${JSON.stringify(it)},`).join('\n')}
+];`.trimStart();
+  await fs.writeFileSync(`${__dirname}/../server/${name}.ts`, src);
+}
+
+update(megasam24, 'megasam24');

@@ -1,7 +1,7 @@
 import Koa from 'koa';
 import Router from 'koa-router';
 import bodyParser from "koa-bodyparser";
-import { megasam24 } from "./megasam24.js";
+import {shop as megasam24} from "./megasam24.js";
 import { GroceryItem } from "../recipe/types";
 import { GroceryShopItem, order } from "./order.js";
 import { Shop, shopItems } from "./shop.js";
