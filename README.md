@@ -194,3 +194,7 @@
 + gąbka do zmywania
 + szmaty
 
+# jajecznica z pomidorami
+* jajka: 3 szt
+* pomidory: 1 szt
+
