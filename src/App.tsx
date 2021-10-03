@@ -26,16 +26,21 @@ function PlusMinusRow(props: {
 
 const recipes: Recipe[] = parse(recipesRaw.trimStart());
 
+interface Basket {
+  [recipe: string]: number,
+}
+
+interface BasketForCount {
+  basket: Basket,
+  count: number,
+}
+
 function App() {
   const [count, setCount] = useState(4);
   const [missing, setMissing] = useState<GroceryItem[]>();
-  const [basket, setBasket] = useState<{ [recipe: string]: number }>(
-    JSON.parse(window.localStorage.getItem("basket") || '{}')
-  );
+  const [baskets, setBaskets] = useState<BasketForCount[]>([])
+  const [basket, setBasket] = useState<Basket>({});
   const [output, setOutput] = useState<string | Result>('');
-  useEffect(() => {
-    window.localStorage.setItem("basket", JSON.stringify(basket))
-  }, [basket]);
   useEffect(() => {
     const filtered = _.chain(recipes)
       .filter(r => basket[r.title] > 0);
@@ -73,12 +78,23 @@ function App() {
       [recipe]: Math.max(0, (basket[recipe] || 0) + mod)
     }));
   }
+
+  function nextList() {
+    setBaskets([
+      ...baskets,
+      {basket, count}
+    ])
+    setBasket({});
+  }
+
+  function removeBasket(idx: number) {
+    setBaskets(b => b.filter((value, index) => index != idx));
+  }
+
   return <div className="App">
     <div className="noprint">
-      <button onClick={() => {
-        setBasket({})
-      }}>Reset
-      </button>
+      <button onClick={() => setBasket({})}>Reset</button>
+      <button onClick={nextList}>Kolejne</button>
       <table>
         <tbody>
         <PlusMinusRow value={count} title='Osób'
@@ -91,6 +107,12 @@ function App() {
         )}
         </tbody>
       </table>
+      <ul>
+        {baskets.map((b, idx) => <li>
+          <button onClick={() => removeBasket(idx)}>X</button>
+          Osób {b.count}: {_.toPairs(b.basket).map(([recipe, count]) => `${recipe} (${count})`).join(", ")}
+        </li>)}
+      </ul>
     </div>
     {typeof output === "string"
       ? <pre>{output}</pre>
