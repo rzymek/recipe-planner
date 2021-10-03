@@ -3,8 +3,10 @@ import { parse } from "../parser.js";
 import recipesRaw from "../recipies.js";
 import { Recipe } from "../recipe/types.js";
 import { shop as megasam24 } from "../server/megasam24.js";
+import { shop as barbora } from "../server/barbora.js";
 import { Shop, ShopEntry, ShopItems, shopItems } from "../server/shop.js";
 import fs from "fs";
+import { category } from "../categories.js";
 
 const recipes: Recipe[] = parse(recipesRaw.trimStart());
 
@@ -23,7 +25,7 @@ function updateShopWithRecipes(shop: Shop): Shop {
     .flatMap(r => r.ingredients)
     .map(it => ({text: it.text, unit: it.unit}))
     .map(toShopItem)
-    .sortBy(([title, unit, amount, link]) => [!!link, title])
+    .sortBy(([title, unit, amount, link]) => link ? [1, title] : [0, category(title), title])
     .sortedUniqBy(([title]) => title)
     .value()
 }
@@ -33,9 +35,10 @@ function update(shop: Shop, name: string) {
 import { Shop } from "./shop";
 
 export const shop:Shop = [
-${updateShopWithRecipes(megasam24).map(it => `  ${JSON.stringify(it)},`).join('\n')}
+${updateShopWithRecipes(shop).map(it => `  ${JSON.stringify(it)},`).join('\n')}
 ];`.trimStart();
   fs.writeFileSync(`src/server/${name}.ts`, src);
 }
 
 update(megasam24, 'megasam24');
+update(barbora, 'barbora');

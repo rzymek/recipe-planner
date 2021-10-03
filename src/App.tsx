@@ -68,36 +68,40 @@ function App() {
   }
 
   return <div className="App">
-    <div className="noprint">
-      <select onChange={e => load(e.target.value)}>
-        <option value=''>Otwórz...</option>
-        {Object.keys(window.localStorage).map(key =>
-          <option value={key} key={key}>{key}</option>
-        )}
-      </select>
-      <button onClick={() => save()}>Zapisz</button>
-      <button onClick={nextList}>Kolejne</button>
-      <table>
-        <tbody>
-        <PlusMinusRow value={current.count} title='Osób'
-                      onChange={(mod) => setCurrent(c => ({...c, count: Math.max(c.count + mod, 0)}))}/>
-        {recipes.map(it => it.title).sort().map(it =>
-          <PlusMinusRow key={it}
-                        value={current.basket[it] || 0}
-                        title={it}
-                        onChange={(mod) => add(it, mod)}/>
-        )}
-        </tbody>
-      </table>
+    <div>
+      <div className="noprint">
+        <select onChange={e => load(e.target.value)}>
+          <option value=''>Otwórz...</option>
+          {Object.keys(window.localStorage).map(key =>
+            <option value={key} key={key}>{key}</option>
+          )}
+        </select>
+        <button onClick={() => save()}>Zapisz</button>
+        <button onClick={nextList}>Kolejne</button>
+        <table>
+          <tbody>
+          <PlusMinusRow value={current.count} title='Osób'
+                        onChange={(mod) => setCurrent(c => ({...c, count: Math.max(c.count + mod, 0)}))}/>
+          {recipes.map(it => it.title).sort().map(it =>
+            <PlusMinusRow key={it}
+                          value={current.basket[it] || 0}
+                          title={it}
+                          onChange={(mod) => add(it, mod)}/>
+          )}
+          </tbody>
+        </table>
+      </div>
       <ul>
         {baskets.map((b, idx) => <li>
-          <button onClick={() => removeBasket(idx)}>X</button>
+          <button className="noprint" onClick={() => removeBasket(idx)}>X</button>
           Osób {b.count}: {_.toPairs(b.basket).map(([recipe, count]) => `${recipe} (${count})`).join(", ")}
         </li>)}
       </ul>
     </div>
     <div style={{overflow: 'auto'}}>
-      <button onClick={() => order(output.groceries).then(setMissing)}>Zamów</button>
+      <div className="noprint">
+        <button onClick={() => order(output.groceries).then(setMissing)}>Zamów</button>
+      </div>
       <GroceryTable values={output.groceries}/>
       <EquipmentList values={output.equipment}/>
       {missing && <>

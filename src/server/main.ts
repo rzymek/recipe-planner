@@ -26,7 +26,9 @@ router.post("/order", bodyParser(), async ctx => {
   const req: GroceryItem[] = ctx.request.body;
 
   const list = req.map(shopRequest);
-  await order(list.filter(it => it.link) as GroceryShopItem[]);
+  order(list.filter(it => it.link) as GroceryShopItem[]).then(()=>{
+    console.log('Finished ordering')
+  });
   const missing = list.filter(it => !it.link);
   console.log('missing', missing);
   ctx.body = JSON.stringify(missing);

@@ -4,6 +4,7 @@ const categories: { [category: string]: string[] } = {
     'ser żółty (krojony)',
     "mleko",
     "jajka",
+    "masło",
   ],
   mięso: [
     'mięso mielone wołowe',
@@ -19,6 +20,7 @@ const categories: { [category: string]: string[] } = {
     "żeberka surowe",
   ],
   warzywa: [
+    "cytryna",
     'marchew',
     'ziemniaki myte',
     'kapusty (główka)',

@@ -83,7 +83,8 @@ export default `
 # grog
 * goździki: 0.01 g
 * rum do grogu: 0.125 L
-* cukier: 60 g
+* cukier: 4 g
+* cytryna: 40g
 + wyciskarka do cytryn
 + termos
 
@@ -179,6 +180,8 @@ export default `
 
 # przekąski
 * kabanosy chili: 0.5 opakowania
+* czekolada gożka: 0.25 tabliczki
+* woda: 1.5 L
 
 # kawa
 * kawa: 12 g
@@ -194,5 +197,11 @@ export default `
 + druciak
 + gąbka do zmywania
 + szmaty
+
+# jajecznica z pomidorami
+* jajka: 3 szt
+* pomidory: 1 szt
+* sól: 4 g
+* masło: 10 g
 
 `
