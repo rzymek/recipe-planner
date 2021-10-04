@@ -45,7 +45,7 @@ export const shop:Shop = [
   ["mąka","g",1000,"https://megasam24.pl/pl/p/Maka-pszenna-Poznanska-1kg-/42"],
   ["natka pietruszki","szt",1,"https://megasam24.pl/pl/p/Natka-pietruszki-peczek-1-szt./1986"],
   ["ogórki konserwowe","g",900,"https://megasam24.pl/pl/p/Ogorki-konserwowe-luksusowe-produkt-pasteryzowany-Dawtona-900g/626"],
-  ["olej rzepakowy","ml",1000,"https://megasam24.pl/pl/p/Olej-rzepakowy-rafinowany-Popularny-1l/261"],
+  ["olej rzepakowy","ml",500,"https://megasam24.pl/pl/p/Olej-rzepakowy-z-pierwszego-tloczenia-Kujawski-0%2C5l/257"],
   ["oregano","opakowanie",1,"https://megasam24.pl/pl/p/Oregano-Prymat-8-g/4985"],
   ["papier toaletowy","rolka",8,"https://megasam24.pl/pl/p/Papier-toaletowy-Mola-Familijna-bialy-8-szt./2510"],
   ["pieczarki","g",500,"https://megasam24.pl/pl/p/Pieczarka-biala-500g-paczkowana/1985"],

@@ -9,7 +9,7 @@
 + kociołek,łyżka,druciak
 
 # hamburgery
-* bułka kajzerka: 2 szt
+* bułka kajzerka: 2.3 szt
 * mięso mielone wołowe: 200 g
 * ser żółty (krojony): 30 g
 * ketchup ostry: 30 g
@@ -126,7 +126,7 @@
 * kapusty (główka): 100 g
 * pomidory krojone puszka / przecier pomidorowy: 50	g
 * cebula:   50 g
-* suszone śliwki: 0 g
+* suszone śliwki: 7 g
 + kociołek,łyżka,druciak
 
 # polędwiczki z grilla
@@ -180,7 +180,7 @@
 # przekąski
 * kabanosy chili: 0.5 opakowania
 * czekolada gożka: 0.25 tabliczki
-* woda: 1.5 L
+* woda: 1 L
 
 # kawa
 * kawa: 12 g

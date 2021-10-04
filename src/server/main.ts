@@ -30,7 +30,6 @@ router.post("/order", bodyParser(), async ctx => {
     console.log('Finished ordering')
   });
   const missing = list.filter(it => !it.link);
-  console.log('missing', missing);
   ctx.body = JSON.stringify(missing);
 })
 

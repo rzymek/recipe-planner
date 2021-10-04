@@ -13,8 +13,13 @@ export async function order(items: GroceryShopItem[]) {
 
   async function clearBasket() {
     await driver.get('https://megasam24.pl/pl/basket');
-    await driver.executeScript(`document.querySelectorAll('.quantity input').forEach(it => it.value=0)`)
-    await driver.findElement(By.css("#recalc button")).click()
+    try {
+      for (; ;) {
+        await driver.findElement(By.className('prodremove')).click()
+      }
+    } catch (e) {
+      return;
+    }
   }
 
   try {
