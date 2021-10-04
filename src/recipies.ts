@@ -76,7 +76,7 @@ export default `
 + obieraczka do warzyw
 
 # płatki z mlekiem
-* chocopuffs: 80 g
+* chocopuffs: 40 g
 * cini minis: 40 g
 * mleko: 0.3 L
 
