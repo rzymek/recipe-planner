@@ -186,7 +186,7 @@
 * kawa: 12 g
 
 # akcesoria
-* papier toaletowy: 1 rolka
+* papier toaletowy: 0.25 rolka
 * reni: 2 tabletki
 * mokre chustki: 10 listków
 * płyn do mycia naczyń: 10 ml
