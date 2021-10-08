@@ -203,3 +203,7 @@
 * sól: 4 g
 * masło: 10 g
 
+# frytki
+* Ziemniaki: 250g
+* Sól: 2 g
+* Olej: 0.2 L
