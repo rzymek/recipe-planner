@@ -155,9 +155,11 @@
 * majeranek: 0.2 opakowanie
 * sól: 10 g
 * pieprz: 10 g
-* kiełbasa ~15cm: 2 szt
+* kiełbasa ~15cm: 1 szt
 * wędzony boczek: 50 g
 * smietana UHT 18%: 25 g
+* Chrzan: 10 g
+* Jajka: 2 szt
 + kociołek,łyżka,druciak
 
 # chilli con carne
