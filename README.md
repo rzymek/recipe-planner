@@ -16,7 +16,7 @@
 * ogórki konserwowe: 30 g
 * jalapenos: 30 g
 * pomidory: 0.5 szt
-+ płyta żeliwna, szpachla
++ Toster
 
 # curry wurst
 * podłużne bułki do currywurst: 2 szt
