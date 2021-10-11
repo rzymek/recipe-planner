@@ -209,3 +209,5 @@
 * Ziemniaki: 250g
 * Sól: 2 g
 * Olej: 0.2 L
++ Metalowe sitko
++ Durszlak
