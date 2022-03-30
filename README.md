@@ -179,6 +179,17 @@
 * czekolada gożka: 0.1 tabliczki
 + kociołek,łyżka,druciak
 
+# fasolka po bretońsku
+* pomidory krojone puszka / przecier pomidorowy: 100 g
+* czerwona fasola puszka: 80 g
+* kiełbasa ~15cm: 0.5 szt
+* wędzony boczek: 50 g
+* cebula: 0.2 sztuk
+* czosnek granulowany: 2 g
+* majeranek: 0.2 opakowanie
+* zioła prowansalskie: 0.2 opakowanie
+
+
 # przekąski
 * kabanosy chili: 0.5 opakowania
 * czekolada gożka: 0.25 tabliczki
