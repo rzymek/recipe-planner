@@ -10,14 +10,14 @@ export default `
 + kociołek,łyżka,druciak
 
 # hamburgery
-* bułka kajzerka: 2 szt
+* bułka kajzerka: 2.3 szt
 * mięso mielone wołowe: 200 g
 * ser żółty (krojony): 30 g
 * ketchup ostry: 30 g
 * ogórki konserwowe: 30 g
 * jalapenos: 30 g
 * pomidory: 0.5 szt
-+ płyta żeliwna, szpachla
++ Toster
 
 # curry wurst
 * podłużne bułki do currywurst: 2 szt
@@ -127,7 +127,7 @@ export default `
 * kapusty (główka): 100 g
 * pomidory krojone puszka / przecier pomidorowy: 50	g
 * cebula:   50 g
-* suszone śliwki: 0 g
+* suszone śliwki: 7 g
 + kociołek,łyżka,druciak
 
 # polędwiczki z grilla
@@ -156,9 +156,11 @@ export default `
 * majeranek: 0.2 opakowanie
 * sól: 10 g
 * pieprz: 10 g
-* kiełbasa ~15cm: 2 szt
+* kiełbasa ~15cm: 1 szt
 * wędzony boczek: 50 g
 * smietana UHT 18%: 25 g
+* Chrzan: 10 g
+* Jajka: 2 szt
 + kociołek,łyżka,druciak
 
 # chilli con carne
@@ -178,16 +180,26 @@ export default `
 * czekolada gożka: 0.1 tabliczki
 + kociołek,łyżka,druciak
 
+# fasolka po bretońsku
+* pomidory krojone puszka / przecier pomidorowy: 100 g
+* czerwona fasola puszka: 80 g
+* kiełbasa ~15cm: 0.5 szt
+* wędzony boczek: 50 g
+* cebula: 0.2 sztuk
+* czosnek granulowany: 2 g
+* majeranek: 0.2 opakowanie
+* zioła prowansalskie: 0.2 opakowanie
+
 # przekąski
 * kabanosy chili: 0.5 opakowania
 * czekolada gożka: 0.25 tabliczki
-* woda: 1.5 L
+* woda: 1 L
 
 # kawa
 * kawa: 12 g
 
 # akcesoria
-* papier toaletowy: 1 rolka
+* papier toaletowy: 0.25 rolka
 * reni: 2 tabletki
 * mokre chustki: 10 listków
 * płyn do mycia naczyń: 10 ml
@@ -203,5 +215,12 @@ export default `
 * pomidory: 1 szt
 * sól: 4 g
 * masło: 10 g
+
+# frytki
+* Ziemniaki: 250g
+* Sól: 2 g
+* Olej: 0.2 L
++ Metalowe sitko
++ Durszlak
 
 `

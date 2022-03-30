@@ -8,8 +8,6 @@ import { EquipmentList } from "./EquipmentList";
 import { BasketForCount, recipes } from "./CalculateShopping";
 import { PlusMinusRow } from "./PlusMinusRow";
 import { mergeBaskets } from "./MergeBaskets";
-import { Simulate } from "react-dom/test-utils";
-
 
 function App() {
   const [current, setCurrent] = useState<BasketForCount>({
@@ -24,7 +22,7 @@ function App() {
   });
   useEffect(() => {
     setOutput(mergeBaskets(current, ...baskets));
-  }, [current])
+  }, [current, baskets])
   const add = (recipe: string, mod: number) => {
     setCurrent(c => ({
       count: c.count,
@@ -41,12 +39,12 @@ function App() {
   }
 
   function removeBasket(idx: number) {
-    setBaskets(b => b.filter((value, index) => index != idx));
+    setBaskets(b => b.filter((value, index) => index !== idx));
   }
 
   function load(name: string) {
     try {
-      if (name == '') {
+      if (name === '') {
         setCurrent({basket: {}, count: 4});
         setBaskets([]);
       }

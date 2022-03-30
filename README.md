@@ -189,7 +189,6 @@
 * majeranek: 0.2 opakowanie
 * zioła prowansalskie: 0.2 opakowanie
 
-
 # przekąski
 * kabanosy chili: 0.5 opakowania
 * czekolada gożka: 0.25 tabliczki
@@ -222,3 +221,4 @@
 * Olej: 0.2 L
 + Metalowe sitko
 + Durszlak
+
