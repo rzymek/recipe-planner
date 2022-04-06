@@ -202,7 +202,7 @@
 * reni: 2 tabletki
 * mokre chustki: 10 listków
 * płyn do mycia naczyń: 10 ml
-* worki na śmieci: 1 szt
+* worki na śmieci 60L: 1 szt
 * helsi / Porost Islandzki / isla: 2 tabletki
 * apap/ibuprom: 2 tabletki
 + druciak
