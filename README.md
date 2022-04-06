@@ -137,12 +137,12 @@
 
 # jajko sadzone
 * chleb biały krojony: 1 kromki
-* jajka: 1 sztuki
+* jajka: 1 szt
 * sól: 10 g
 + płyta żeliwna, szpachla
 
 # pankejki
-* jajka: 1 sztuki
+* jajka: 1 szt
 * proszek do pieczenia:	4 g
 * mąka:	100	g
 * mleko: 0.1 L
@@ -159,7 +159,7 @@
 * wędzony boczek: 50 g
 * smietana UHT 18%: 25 g
 * Chrzan: 10 g
-* Jajka: 2 szt
+* jajka: 2 szt
 + kociołek,łyżka,druciak
 
 # chilli con carne
