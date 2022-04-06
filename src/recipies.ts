@@ -138,12 +138,12 @@ export default `
 
 # jajko sadzone
 * chleb biały krojony: 1 kromki
-* jajka: 1 sztuki
+* jajka: 1 szt
 * sól: 10 g
 + płyta żeliwna, szpachla
 
 # pankejki
-* jajka: 1 sztuki
+* jajka: 1 szt
 * proszek do pieczenia:	4 g
 * mąka:	100	g
 * mleko: 0.1 L
@@ -160,7 +160,7 @@ export default `
 * wędzony boczek: 50 g
 * smietana UHT 18%: 25 g
 * Chrzan: 10 g
-* Jajka: 2 szt
+* jajka: 2 szt
 + kociołek,łyżka,druciak
 
 # chilli con carne
@@ -203,7 +203,7 @@ export default `
 * reni: 2 tabletki
 * mokre chustki: 10 listków
 * płyn do mycia naczyń: 10 ml
-* worki na śmieci: 1 szt
+* worki na śmieci 60L: 1 szt
 * helsi / Porost Islandzki / isla: 2 tabletki
 * apap/ibuprom: 2 tabletki
 + druciak
@@ -219,7 +219,7 @@ export default `
 # frytki
 * ziemniaki: 0.25 kg
 * sól: 2 g
-* olej rzepakowy: 0.2 L
+* olej rzepakowy: 200 ml
 + Metalowe sitko
 + Durszlak
 
