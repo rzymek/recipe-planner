@@ -13,6 +13,7 @@
 * mięso mielone wołowe: 200 g
 * ser żółty (krojony): 30 g
 * ketchup ostry: 30 g
+* majonez jalapenos: 30 g
 * ogórki konserwowe: 30 g
 * jalapenos: 30 g
 * pomidory: 0.5 szt
