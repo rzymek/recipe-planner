@@ -59,7 +59,7 @@
 * kasza gryczana: 100	g
 * marchew: 0.15 kg
 * cebula: 0.10 g
-* czerwona papryka: 0.05 g
+* czerwona papryka: 0.1 g
 + kociołek,łyżka,druciak
 + obieraczka do warzyw
 
@@ -176,7 +176,7 @@
 * pomidory krojone puszka / przecier pomidorowy:	100	g
 * olej rzepakowy: 35 ml
 * jalapenos:	50	g
-* czerwona papryka:	0,5	sztuk
+* czerwona papryka:	100 g
 * cebula: 	120 g
 * czekolada gorzka: 0.1 tabliczki
 + kociołek,łyżka,druciak
@@ -193,7 +193,7 @@
 * pomidory krojone puszka / przecier pomidorowy:	100	g
 * olej rzepakowy: 35 ml
 * jalapenos:	50	g
-* czerwona papryka:	0,5	sztuk
+* czerwona papryka:	100 g
 * cebula: 	120 g
 * czekolada gorzka: 0.1 tabliczki
 + kociołek,łyżka,druciak
