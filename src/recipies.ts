@@ -164,7 +164,7 @@ export default `
 * jajka: 2 szt
 + kociołek,łyżka,druciak
 
-# chilli con carne
+# chili con carne
 * tortilla: 2 szt
 * mięso mielone wołowe:	125	g
 * czosnek granulowany: 4 g
@@ -182,7 +182,7 @@ export default `
 * czekolada gorzka: 0.1 tabliczki
 + kociołek,łyżka,druciak
 
-# chilli sin carne
+# chili sin carne
 * tortilla: 2 szt
 * czosnek granulowany: 4 g
 * chilli: 0.1	opakowanie
