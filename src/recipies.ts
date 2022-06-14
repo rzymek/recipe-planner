@@ -14,6 +14,7 @@ export default `
 * mięso mielone wołowe: 200 g
 * ser żółty (krojony): 30 g
 * ketchup ostry: 30 g
+* majonez jalapenos: 30 g
 * ogórki konserwowe: 30 g
 * jalapenos: 30 g
 * pomidory: 0.5 szt
@@ -137,8 +138,8 @@ export default `
 + płyta żeliwna, szpachla
 
 # jajko sadzone
-* chleb biały krojony: 1 kromki
-* jajka: 1 szt
+* chleb biały krojony: 2 kromki
+* jajka: 2 szt
 * sól: 10 g
 + płyta żeliwna, szpachla
 
@@ -213,13 +214,14 @@ export default `
 # jajecznica z pomidorami
 * jajka: 3 szt
 * pomidory: 1 szt
+* wędzony boczek: 25 g
 * sól: 4 g
 * masło: 10 g
 
 # frytki
-* ziemniaki: 0.25 kg
+* ziemniaki: 0.15 kg
 * sól: 2 g
-* olej rzepakowy: 200 ml
+* olej rzepakowy: 250 ml
 + Metalowe sitko
 + Durszlak
 
