@@ -41,6 +41,7 @@ const categories: { [category: string]: string[] } = {
   ],
   przetwory: [
     'ketchup ostry',
+    'majonez jalapenos',
     'jalapenos',
     'ogórki konserwowe',
     'cebulka prażona',
@@ -59,13 +60,14 @@ const categories: { [category: string]: string[] } = {
     "zakwasu żytniego do żurku",
     "żurawina",
     "mąka",
-    "kawa",
+    "Chrzan",
+    "kawa",    
   ],
   akcesoria: [
     "mokre chustki",
     "papier toaletowy",
     "płyn do mycia naczyń",
-    "worki na śmieci",
+    "worki na śmieci 60L",
   ],
   przyprawy: [
     'curry/kurkuma',
@@ -81,6 +83,7 @@ const categories: { [category: string]: string[] } = {
     "oregano",
     "pieprz",
     "proszek do pieczenia",
+    "kmin rzymski"
   ],
   leki: [
     "apap/ibuprom",
