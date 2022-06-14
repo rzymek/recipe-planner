@@ -170,6 +170,7 @@ export default `
 * czosnek granulowany: 4 g
 * chilli: 0.1	opakowanie
 * oregano: 0.2 opakowanie
+* kmin rzymski: 0.2 opakowanie
 * sól: 10 g
 * kukurydza puszka: 50g
 * czerwona fasola puszka: 50g
@@ -178,7 +179,24 @@ export default `
 * jalapenos:	50	g
 * czerwona papryka:	0,5	sztuk
 * cebula: 	1	sztuk
-* czekolada gożka: 0.1 tabliczki
+* czekolada gorzka: 0.1 tabliczki
++ kociołek,łyżka,druciak
+
+# chilli sin carne
+* tortilla: 2 szt
+* czosnek granulowany: 4 g
+* chilli: 0.1	opakowanie
+* oregano: 0.2 opakowanie
+* kmin rzymski: 0.2 opakowanie
+* sól: 10 g
+* kukurydza puszka: 50g
+* czerwona fasola puszka: 150g
+* pomidory krojone puszka / przecier pomidorowy:	100	g
+* olej rzepakowy: 35 ml
+* jalapenos:	50	g
+* czerwona papryka:	0,5	sztuk
+* cebula: 	1	sztuk
+* czekolada gorzka: 0.1 tabliczki
 + kociołek,łyżka,druciak
 
 # fasolka po bretońsku
@@ -193,7 +211,7 @@ export default `
 
 # przekąski
 * kabanosy chili: 0.5 opakowania
-* czekolada gożka: 0.25 tabliczki
+* czekolada gorzka: 0.25 tabliczki
 * woda: 1 L
 
 # kawa

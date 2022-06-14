@@ -98,7 +98,8 @@ function App() {
     </div>
     <div style={{overflow: 'auto'}}>
       <div className="noprint">
-        <button onClick={() => order(output.groceries).then(setMissing)}>Zamów</button>
+        <button onClick={() => order(output.groceries).then(setMissing)}>Zamów</button>&nbsp;
+        <a href="https://github.com/rzymek/recipe-planner/blob/master/README.md">Przepisy</a>
       </div>
       <GroceryTable values={output.groceries}/>
       <EquipmentList values={output.equipment}/>
