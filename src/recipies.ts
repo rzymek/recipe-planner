@@ -178,7 +178,7 @@ export default `
 * olej rzepakowy: 35 ml
 * jalapenos:	50	g
 * czerwona papryka:	0,5	sztuk
-* cebula: 	1	sztuk
+* cebula: 	120 g
 * czekolada gorzka: 0.1 tabliczki
 + kociołek,łyżka,druciak
 
@@ -195,7 +195,7 @@ export default `
 * olej rzepakowy: 35 ml
 * jalapenos:	50	g
 * czerwona papryka:	0,5	sztuk
-* cebula: 	1	sztuk
+* cebula: 	120 g
 * czekolada gorzka: 0.1 tabliczki
 + kociołek,łyżka,druciak
 
@@ -204,7 +204,7 @@ export default `
 * czerwona fasola puszka: 80 g
 * kiełbasa ~15cm: 0.5 szt
 * wędzony boczek: 50 g
-* cebula: 0.2 sztuk
+* cebula: 25 g
 * czosnek granulowany: 2 g
 * majeranek: 0.2 opakowanie
 * zioła prowansalskie: 0.2 opakowanie
