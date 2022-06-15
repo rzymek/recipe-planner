@@ -236,9 +236,9 @@
 * masło: 10 g
 
 # frytki
-* ziemniaki: 0.15 kg
+* ziemniaki: 0.2 kg
 * sól: 2 g
-* olej rzepakowy: 250 ml
+* olej rzepakowy: 125 ml
 + Metalowe sitko
 + Durszlak
 
