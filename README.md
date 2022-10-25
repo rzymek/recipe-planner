@@ -84,7 +84,7 @@
 * goździki: 0.01 g
 * rum do grogu: 0.125 L
 * cukier: 4 g
-* cytryna: 40g
+* cytryna: 100g
 + wyciskarka do cytryn
 + termos
 
