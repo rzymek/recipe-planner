@@ -212,9 +212,9 @@
 * kabanosy chili: 0.5 opakowania
 * czekolada gorzka: 0.25 tabliczki
 * woda: 1 L
-
-# kawa
 * kawa: 12 g
+* mięta: 1 torebka
+* herbata: 1 torebka
 
 # akcesoria
 * papier toaletowy: 0.25 rolka
