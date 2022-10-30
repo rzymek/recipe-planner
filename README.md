@@ -58,7 +58,7 @@
 * olej rzepakowy: 50 ml
 * kasza gryczana: 100	g
 * marchew: 0.15 kg
-* cebula: 0.10 g
+* cebula: 100 g
 * czerwona papryka: 0.1 g
 + kociołek,łyżka,druciak
 + obieraczka do warzyw
@@ -71,7 +71,7 @@
 * suchego grochu łuskanego (połówki): 60 g
 * marchew: 0.04 kg
 * ziemniaki: 0.12 kg
-* cebula: 0.05 g
+* cebula: 50 g
 + kociołek,łyżka,druciak
 + obieraczka do warzyw
 
@@ -93,7 +93,7 @@
 * czosnek granulowany: 4 g
 * zioła prowansalskie: 0.2 opakowanie
 * sól: 10 g
-* cebula: 0.10 g
+* cebula: 100 g
 * pomidory krojone puszka / przecier pomidorowy: 150 g
 * makaron spagetti: 100 g
 + kociołek,łyżka,druciak
@@ -105,6 +105,7 @@
 * jalapenos: 40 g
 * ketchup ostry: 60 g
 * ogórki konserwowe: 30 g
+* cebula: 30 g
 + płyta żeliwna, szpachla
 
 # kwaśnica
@@ -159,7 +160,7 @@
 * kiełbasa ~15cm: 1 szt
 * wędzony boczek: 50 g
 * smietana UHT 18%: 25 g
-* Chrzan: 10 g
+* chrzan: 10 g
 * jajka: 2 szt
 + kociołek,łyżka,druciak
 
@@ -232,6 +233,7 @@
 * jajka: 3 szt
 * pomidory: 1 szt
 * wędzony boczek: 25 g
+* cebula: 50 g
 * sól: 4 g
 * masło: 10 g
 
