@@ -49,7 +49,7 @@
 
 # gulasz z kaszą
 * chleb biały krojony: 3 kromki
-* mięso na gulasz: 300 g
+* mięso na gulasz: 150 g
 * czosnek granulowany: 4 g
 * zioła prowansalskie: 0.2 opakowanie
 * ziarna jałowca: 0.2 opakowanie
