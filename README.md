@@ -210,7 +210,7 @@
 * zioła prowansalskie: 0.2 opakowanie
 
 # przekąski
-* kabanosy chili: 0.5 opakowania
+* kabanosy chili: 0.25 opakowania
 * czekolada gorzka: 0.25 tabliczki
 * woda: 1 L
 * kawa: 12 g
