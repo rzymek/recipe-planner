@@ -27,6 +27,14 @@
 * ketchup ostry: 50 g
 * jalapenos: 30 g
 
+# kiełbasa z cebulą
+* kiełbasa ~15cm: 2 szt
+* cebula: 150 g
+* ketchup ostry: 50 g
+* musztarda: 30 g
+* pomidory: 1 szt
+* chleb: 2 kromki
+
 # prażonka
 * kiełbasa ~15cm: 0.5 szt
 * czosnek granulowany: 5 g
@@ -48,7 +56,7 @@
 + płyta żeliwna, szpachla
 
 # gulasz z kaszą
-* chleb biały krojony: 3 kromki
+* chleb: 3 kromki
 * mięso na gulasz: 150 g
 * czosnek granulowany: 4 g
 * zioła prowansalskie: 0.2 opakowanie
@@ -64,7 +72,7 @@
 + obieraczka do warzyw
 
 # grochówka
-* chleb biały krojony: 3 kromki
+* chleb: 3 kromki
 * żeberka wędzone: 150 g
 * majeranek: 0.2 opakowanie
 * sól: 10 g
@@ -99,7 +107,7 @@
 + kociołek,łyżka,druciak
 
 # tosty
-* chleb biały krojony: 6 kromki
+* chleb: 6 kromki
 * ser żółty (krojony): 75 g
 * sucha krakowka: 75 g
 * jalapenos: 40 g
@@ -132,13 +140,13 @@
 + kociołek,łyżka,druciak
 
 # polędwiczki z grilla
-* chleb biały krojony: 4 kromki
+* chleb: 4 kromki
 * polędwiczki wieprzowe: 350	g
 * żurawina:	80 g
 + płyta żeliwna, szpachla
 
 # jajko sadzone
-* chleb biały krojony: 2 kromki
+* chleb: 2 kromki
 * jajka: 2 szt
 * sól: 10 g
 + płyta żeliwna, szpachla
