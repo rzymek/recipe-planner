@@ -1,3 +1,21 @@
+# Cassoulet
+* fasola: 150 g
+* kiełbasa ~15cm: 1 szt
+* karkówka:	100 g
+* boczek: 50 g
+* udka kurczaka: 1 szt
+* czosnek granulowany: 4 g
+* goździki: 0.01 g
+* zioła prowansalskie: 0.2 opakowanie
+* sól: 10 g
+* pomidory krojone puszka / przecier pomidorowy: 100 g
+* koncentrat pomidorowy: 10 g
+* olej rzepakowy: 50 ml
+* marchew: 0.10 kg
+* cebula: 50 g
++ kociołek,łyżka,druciak
++ obieraczka do warzyw
+
 # makaron z kurczakiem w śmietanowym sosie pieczarkowym
 * smietana UHT 18%: 60 g
 * pierś kurczaka: 150 g
@@ -181,7 +199,7 @@
 * kmin rzymski: 0.2 opakowanie
 * sól: 10 g
 * kukurydza puszka: 50g
-* czerwona fasola puszka: 50g
+* fasola: 50g
 * pomidory krojone puszka / przecier pomidorowy:	100	g
 * olej rzepakowy: 35 ml
 * jalapenos:	50	g
@@ -198,7 +216,7 @@
 * kmin rzymski: 0.2 opakowanie
 * sól: 10 g
 * kukurydza puszka: 50g
-* czerwona fasola puszka: 150g
+* fasola: 150g
 * pomidory krojone puszka / przecier pomidorowy:	100	g
 * olej rzepakowy: 35 ml
 * jalapenos:	50	g
