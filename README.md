@@ -1,3 +1,20 @@
+# żółte curry
+* pierś kurczaka: 150 g
+* cebula: 50 g
+* czosnek granulowany: 8 g
+* imbir: 2 cm
+* olej rzepakowy: 50 ml
+* marchew: 0.05 kg
+* czerwona papryka: 0.5 szt
+* żółta pasta curry: 35 g
+* mleczko kokosowe: 250 ml
+* ryż jaśminowy 150 g
+* sól: 10 g
+* pieprz: 5 g
+* curry/kurkuma: 5 g
++ kociołek,łyżka,druciak
++ obieraczka do warzyw
+
 # Cassoulet
 * fasola: 150 g
 * kiełbasa ~15cm: 1 szt
