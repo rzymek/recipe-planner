@@ -8,7 +8,7 @@
 * czerwona papryka: 0.5 szt
 * żółta pasta curry: 35 g
 * mleczko kokosowe: 250 ml
-* ryż jaśminowy 150 g
+* ryż jaśminowy: 150 g
 * sól: 10 g
 * pieprz: 5 g
 * curry/kurkuma: 5 g
