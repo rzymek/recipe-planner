@@ -1,6 +1,6 @@
 # żeberka
 * żeberka surowe:	300	g
-* ziemniaki: 150 g
+* ziemniaki: 0.150 kg
 * cebula: 60 g
 * rodzynki: 5 g
 * olej rzepakowy: 10 ml
