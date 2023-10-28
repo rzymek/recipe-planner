@@ -10,6 +10,14 @@
 * pieprz: 5 g
 + kociołek,łyżka,druciak
 
+# skrzydełka
+* skrzydełka kurczaka: 6 szt
+* ostra pasta paprykowa: 15 g
+* olej rzepakowy: 10 ml
+* koncentrat pomidorowy: 5 g
+* chilli: 0.1	opakowanie
+* papryka (przyprawa): 0.1	opakowanie
+
 # żółte curry
 * pierś kurczaka: 150 g
 * cebula: 50 g
