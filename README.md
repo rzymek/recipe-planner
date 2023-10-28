@@ -1,3 +1,15 @@
+# żeberka
+* żeberka surowe:	300	g
+* ziemniaki: 150 g
+* cebula: 60 g
+* rodzynki: 5 g
+* olej rzepakowy: 10 ml
+* musztarda: 30 g
+* miód: 30 g
+* sól: 5 g
+* pieprz: 5 g
++ kociołek,łyżka,druciak
+
 # żółte curry
 * pierś kurczaka: 150 g
 * cebula: 50 g
