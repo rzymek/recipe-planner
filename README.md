@@ -18,7 +18,7 @@
 * chilli: 0.1	opakowanie
 * papryka (przyprawa): 0.1	opakowanie
 
-# żółte curry
+# zielone curry
 * pierś kurczaka: 150 g
 * cebula: 50 g
 * czosnek granulowany: 8 g
@@ -26,7 +26,7 @@
 * olej rzepakowy: 50 ml
 * marchew: 0.05 kg
 * czerwona papryka: 0.5 szt
-* żółta pasta curry: 35 g
+* zielona pasta curry: 35 g
 * mleczko kokosowe: 250 ml
 * ryż jaśminowy: 150 g
 * sól: 10 g
