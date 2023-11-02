@@ -35,7 +35,7 @@
 + kociołek,łyżka,druciak
 + obieraczka do warzyw
 
-# Cassoulet
+# cassoulet
 * fasola: 150 g
 * kiełbasa ~15cm: 1 szt
 * karkówka:	100 g
@@ -293,7 +293,8 @@
 + szmaty
 
 # jajecznica z pomidorami
-* jajka: 3 szt
+* jajka: 4 szt
+* chleb: 1 kromek
 * pomidory: 1 szt
 * wędzony boczek: 25 g
 * cebula: 50 g
