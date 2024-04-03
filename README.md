@@ -294,7 +294,7 @@
 
 # jajecznica z pomidorami
 * jajka: 4 szt
-* chleb: 1 kromek
+* chleb: 1 kromki
 * pomidory: 1 szt
 * wędzony boczek: 25 g
 * cebula: 50 g
