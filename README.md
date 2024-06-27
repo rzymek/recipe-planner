@@ -79,7 +79,17 @@
 * ogórki konserwowe: 30 g
 * jalapenos: 30 g
 * pomidory: 0.5 szt
-+ Toster
+
+# hamburgery wege
+* bułka kajzerka: 2.3 szt
+* burger wege: 2 szt
+* ser żółty (krojony): 30 g
+* ketchup ostry: 30 g
+* majonez jalapenos: 30 g
+* ogórki konserwowe: 30 g
+* jalapenos: 30 g
+* pomidory: 0.5 szt
+
 
 # curry wurst
 * podłużne bułki do currywurst: 2 szt
