@@ -168,6 +168,16 @@
 * makaron spagetti: 100 g
 + kociołek,łyżka,druciak
 
+# spaghetti z kiełbasą
+* kiełbasa: 100 g
+* czosnek granulowany: 4 g
+* zioła prowansalskie: 0.2 opakowanie
+* sól: 10 g
+* cebula: 100 g
+* pomidory krojone puszka / przecier pomidorowy: 150 g
+* makaron spagetti: 100 g
++ kociołek,łyżka,druciak
+
 # tosty
 * chleb: 6 kromki
 * ser żółty (krojony): 75 g
