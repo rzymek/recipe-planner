@@ -1,3 +1,10 @@
+# owsianka
+* płatki owsiane: 75 g
+* chia: 8 g
+* mleko: 0.25 L
+* ananas puszka: 60 g
+* konfitura jagodowa: 60 g
+
 # żeberka
 * żeberka surowe:	300	g
 * ziemniaki: 0.150 kg
