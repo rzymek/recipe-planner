@@ -73,7 +73,6 @@
 # hamburgery
 * bułka kajzerka: 2.3 szt
 * mięso mielone wołowe: 200 g
-* ser żółty (krojony): 30 g
 * ketchup ostry: 30 g
 * majonez jalapenos: 30 g
 * ogórki konserwowe: 30 g
@@ -83,7 +82,6 @@
 # hamburgery wege
 * bułka kajzerka: 2.3 szt
 * burger wege: 2 szt
-* ser żółty (krojony): 30 g
 * ketchup ostry: 30 g
 * majonez jalapenos: 30 g
 * ogórki konserwowe: 30 g
@@ -322,11 +320,10 @@
 # jajecznica z pomidorami
 * jajka: 4 szt
 * chleb: 1 kromki
-* pomidory: 1 szt
-* wędzony boczek: 25 g
+* pomidory: 0.5 szt
+* wędzony boczek: 15 g
 * cebula: 50 g
 * sól: 4 g
-* masło: 10 g
 
 # frytki
 * ziemniaki: 0.2 kg
