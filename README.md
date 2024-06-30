@@ -189,7 +189,7 @@
 # tosty
 * chleb: 6 kromki
 * ser żółty (krojony): 75 g
-* sucha krakowka: 75 g
+* sucha krakowka: 5 g
 * jalapenos: 40 g
 * ketchup ostry: 60 g
 * ogórki konserwowe: 30 g
@@ -288,7 +288,7 @@
 + kociołek,łyżka,druciak
 
 # fasolka po bretońsku
-* pomidory krojone puszka / przecier pomidorowy: 100 g
+* pomidory krojone puszka / przecier pomidorowy: 250 g
 * czerwona fasola puszka: 120 g
 * kiełbasa ~15cm: 1 szt
 * wędzony boczek: 50 g
