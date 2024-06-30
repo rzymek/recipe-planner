@@ -289,8 +289,8 @@
 
 # fasolka po bretońsku
 * pomidory krojone puszka / przecier pomidorowy: 100 g
-* czerwona fasola puszka: 80 g
-* kiełbasa ~15cm: 0.5 szt
+* czerwona fasola puszka: 120 g
+* kiełbasa ~15cm: 1 szt
 * wędzony boczek: 50 g
 * cebula: 25 g
 * czosnek granulowany: 2 g
