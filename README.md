@@ -96,6 +96,14 @@
 * curry/kurkuma: 5 g
 * ketchup ostry: 50 g
 * jalapenos: 30 g
+  
+# curry wurst wege
+* podłużne bułki do currywurst: 2 szt
+* kiełbasa wege ~15cm: 2 szt
+* cebulka prażona: 40 g
+* curry/kurkuma: 5 g
+* ketchup ostry: 50 g
+* jalapenos: 30 g
 
 # kiełbasa z cebulą
 * kiełbasa ~15cm: 2 szt
@@ -123,6 +131,12 @@
 * ser żółty (krojony): 60 g
 * jalapenos: 50 g
 * sucha krakowka: 60 g
++ płyta żeliwna, szpachla
+
+# quesadilla wege
+* tortilla: 2 szt
+* ser żółty (krojony): 60 g
+* jalapenos: 50 g
 + płyta żeliwna, szpachla
 
 # gulasz z kaszą
@@ -190,6 +204,16 @@
 * chleb: 6 kromki
 * ser żółty (krojony): 75 g
 * sucha krakowka: 5 g
+* jalapenos: 40 g
+* ketchup ostry: 60 g
+* ogórki konserwowe: 30 g
+* cebula: 30 g
++ płyta żeliwna, szpachla
+
+
+# tosty wege
+* chleb: 6 kromki
+* ser żółty (krojony): 75 g
 * jalapenos: 40 g
 * ketchup ostry: 60 g
 * ogórki konserwowe: 30 g
