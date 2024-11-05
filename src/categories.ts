@@ -52,6 +52,7 @@ const categories: { [category: string]: string[] } = {
     "chocopuffs",
     "cini minis",
     "pomidory krojone puszka / przecier pomidorowy",
+    'pomidory krojone puszka',
     "rum do grogu",
     "czekolada gożka",
     "czerwona fasola puszka",
@@ -70,6 +71,7 @@ const categories: { [category: string]: string[] } = {
     "worki na śmieci 60L",
   ],
   przyprawy: [
+    'papryka (przyprawa)',
     'curry/kurkuma',
     'czosnek granulowany',
     'zioła prowansalskie',
