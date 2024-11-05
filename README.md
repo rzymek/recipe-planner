@@ -349,6 +349,17 @@
 * cebula: 50 g
 * sól: 4 g
 
+# szakszuka
+* jajka: 2 szt
+* pomidory krojone puszka: 200 g
+* czerwona papryka:	150 g
+* cebula: 80 g
+* czosnek granulowany: 8 g
+* sól: 4 g
+* papryka (przyprawa): 0.1 opakowanie
+* kmin rzymski: 0.1 opakowanie
+* natka pietruszki: 0.2 szt
+
 # frytki
 * ziemniaki: 0.2 kg
 * sól: 2 g
