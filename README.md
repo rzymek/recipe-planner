@@ -88,7 +88,6 @@
 * jalapenos: 30 g
 * pomidory: 0.5 szt
 
-
 # curry wurst
 * podłużne bułki do currywurst: 2 szt
 * kiełbasa ~15cm: 2 szt
@@ -96,7 +95,7 @@
 * curry/kurkuma: 5 g
 * ketchup ostry: 50 g
 * jalapenos: 30 g
-  
+
 # curry wurst wege
 * podłużne bułki do currywurst: 2 szt
 * kiełbasa wege ~15cm: 2 szt
@@ -209,7 +208,6 @@
 * ogórki konserwowe: 30 g
 * cebula: 30 g
 + płyta żeliwna, szpachla
-
 
 # tosty wege
 * chleb: 6 kromki
