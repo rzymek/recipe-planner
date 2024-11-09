@@ -284,7 +284,7 @@
 * sól: 10 g
 * kukurydza puszka: 50g
 * fasola: 50g
-* pomidory krojone puszka / przecier pomidorowy:	100	g
+* pomidory krojone puszka / przecier pomidorowy:	200	g
 * olej rzepakowy: 35 ml
 * jalapenos:	50	g
 * czerwona papryka:	100 g
